@@ -1,7 +1,6 @@
 {
   "name": "@pokemonon/stylelint-config-formatter",
-  "version": "1.0.0",
-  "description": "> TODO: description",
+  "version": "0.0.1-beta.0",
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
