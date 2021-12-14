@@ -1,8 +1,8 @@
 module.exports = {
     root: true,
     extends: [
-        '../../lib/configs/common.js',
-        '../../lib/configs/typescript.js',
+        '../../common.js',
+        '../../typescript.js',
     ],
     parserOptions: {
         project: `${__dirname}/tsconfig.eslint.json`,

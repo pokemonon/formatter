@@ -1,9 +1,9 @@
 module.exports = {
     root: true,
     extends: [
-        '../../lib/configs/common.js',
-        '../../lib/configs/typescript.js',
-        '../../lib/configs/vue3.js',
+        '../../common.js',
+        '../../typescript.js',
+        '../../vue3.js',
     ],
     parserOptions: {
         extraFileExtensions: ['.vue'],

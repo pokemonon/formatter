@@ -1,7 +1,7 @@
 module.exports = {
     root: true,
     extends: [
-        '../../lib/configs/common.js',
+        '../../common.js',
     ],
     settings: {
         'import/resolver': {
