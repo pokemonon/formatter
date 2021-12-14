@@ -9,7 +9,7 @@
     "lerna": "^3.21.0"
   },
   "scripts": {
-    "init": "./init.sh",
+    "postinstall": "./init.sh",
     "clean": "lerna clean -y && rm -rf node_modules"
   }
 }
