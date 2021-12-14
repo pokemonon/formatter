@@ -1,0 +1,31 @@
+{
+  "name": "@pokemonon/eslint-config-formatter",
+  "version": "0.0.4",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "typescript"
+  ],
+  "main": "lib/index.js",
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint-config-airbnb": "^19.0.2",
+    "eslint-config-airbnb-typescript": "^16.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-typescript": "^0.14.0",
+    "eslint-plugin-vue": "^8.0.0",
+    "requireindex": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": "^4.0.5"
+  }
+}

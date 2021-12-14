@@ -1,0 +1,8 @@
+.wrapper {
+    color: #abc;
+    background: #aaa;
+}
+
+.one .two .third .four .five {
+    color: #abc;
+}
