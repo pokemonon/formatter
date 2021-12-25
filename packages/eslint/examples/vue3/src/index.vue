@@ -3,7 +3,7 @@
         <div
             id=""
             class=""
-            style="" />
+            style="color: red;" />
         <div
             id=""
             class="">
@@ -22,6 +22,6 @@ console.log(a);
 
 <style lang="postcss">
 .class {
-
+    color: red;
 }
 </style>

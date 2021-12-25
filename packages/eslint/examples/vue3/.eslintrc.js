@@ -6,8 +6,8 @@ module.exports = {
         '../../vue3.js',
     ],
     parserOptions: {
-        extraFileExtensions: ['.vue'],
-        project: `${__dirname}/tsconfig.eslint.json`,
+        project: 'tsconfig.eslint.json',
+        tsconfigRootDir: __dirname,
     },
     settings: {
         'import/resolver': {
@@ -21,5 +21,5 @@ module.exports = {
                 ],
             },
         },
-    }
+    },
 };
