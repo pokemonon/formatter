@@ -21,7 +21,6 @@ module.exports = {
                 '@typescript-eslint/default-param-last': 'off',
                 '@typescript-eslint/no-unused-expressions': 'off',
                 '@typescript-eslint/no-unused-vars': 'off',
-
                 // ? typescript把common下的import覆盖了？？
                 'import/no-extraneous-dependencies': 'warn', // import的依赖需要存在于dependencies
 
