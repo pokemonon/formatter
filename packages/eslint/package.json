@@ -1,6 +1,6 @@
 {
   "name": "@pokemonon/eslint-config-formatter",
-  "version": "0.0.1-beta.4",
+  "version": "0.0.1-beta.5",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -21,8 +21,8 @@
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-typescript": "^0.14.0",
     "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-typescript": "^0.14.0",
     "eslint-plugin-vue": "^8.0.0"
   },
   "devDependencies": {
