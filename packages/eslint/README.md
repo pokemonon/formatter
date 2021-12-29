@@ -71,8 +71,8 @@ typescript的规范
 module.exports = {
     root: true,
     extends: [
-        '../../lib/configs/common.js',
-        '../../lib/configs/typescript.js',
+        '@pokemonon/formatter/common',
+        '@pokemonon/formatter/typescript',
     ],
     parserOptions: {
         // @typescript-eslint/parse解析需要
@@ -93,28 +93,6 @@ module.exports = {
         },
     },
 };
-```
-
-#### FAQ
-##### I get this error when running ESLint: "The file must be included in at least one of the projects provided"
-
-This means you are attempting to lint a file that tsconfig.json doesn't include.
-
-A common fix is to create a tsconfig.eslint.json file, which extends your tsconfig.json file and includes all files you are linting.
-
-```
-{
-  "extends": "./tsconfig.json",
-  "include": ["src/**/*.ts", "src/**/*.js", "test/**/*.ts"]
-}
-```
-Update your ESLint config file:
-
-```
-parserOptions: {
--  project: './tsconfig.json',
-+  project: './tsconfig.eslint.json',
-}
 ```
 
 ### vue配置

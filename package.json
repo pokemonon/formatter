@@ -5,11 +5,12 @@
     "packages/*"
   ],
   "devDependencies": {
-    "eslint": "^8.4.1",
+    "@vitesite/vitedoc-core": "^0.0.0-beta.10",
     "lerna": "^3.21.0"
   },
   "scripts": {
-    "postinstall": "./init.sh",
-    "clean": "lerna clean -y && rm -rf node_modules"
+    "clean": "lerna clean -y && rm -rf node_modules",
+    "dev:docs": "vitedoc dev",
+    "build:docs": "vitedoc build --outDir dist"
   }
 }

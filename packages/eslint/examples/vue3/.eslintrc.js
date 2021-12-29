@@ -7,7 +7,7 @@ module.exports = {
     ],
     parserOptions: {
         project: 'tsconfig.eslint.json',
-        tsconfigRootDir: __dirname,
+        tsconfigRootDir: __dirname
     },
     settings: {
         'import/resolver': {

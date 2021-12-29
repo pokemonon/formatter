@@ -21,6 +21,7 @@ module.exports = {
         /**
          * 语法规范
          */
-        'vue/multi-word-component-names': 0,
+        'vue/multi-word-component-names': 'off',
+        'vue/require-default-prop': 'off',
     },
 };

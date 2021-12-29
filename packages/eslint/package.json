@@ -20,12 +20,14 @@
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-typescript": "^0.14.0",
-    "eslint-plugin-vue": "^8.0.0",
-    "requireindex": "^1.2.0"
+    "eslint-plugin-vue": "^8.0.0"
   },
   "devDependencies": {
     "eslint": "^8.0.0",
-    "typescript": "^4.0.5"
+    "eslint-plugin-react": "^7.28.0",
+    "typescript": "^4.0.5",
+    "vue": "^3.2.26"
   }
 }

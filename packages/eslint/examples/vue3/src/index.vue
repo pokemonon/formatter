@@ -18,6 +18,10 @@ import { log } from '@/utils/common';
 log('eslint');
 const a = '';
 console.log(a);
+
+defineProps({
+    title: String,
+});
 </script>
 
 <style lang="postcss">
