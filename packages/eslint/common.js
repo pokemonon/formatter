@@ -35,13 +35,15 @@ module.exports = {
         'no-unused-expressions': 'off',
         'default-param-last': 'off',
         'consistent-return': 'off',
-        'prefer-destructuring': 'warn',
+        'prefer-destructuring': 'off',
         'prefer-template': 'warn',
         'prefer-const': 'warn',
         'guard-for-in': 'warn',
         'symbol-description': 'warn',
         'operator-linebreak': ['error', 'after'], // 操作符换行处理
         'global-require': 'off',
+        'class-methods-use-this': 'off',
+        'max-classes-per-file': 'off',
 
         /**
           * 格式规范
