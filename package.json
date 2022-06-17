@@ -5,12 +5,15 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@changesets/cli": "^2.23.0",
     "@vitesite/vitedoc-core": "^0.0.0-beta.10",
     "lerna": "^3.21.0"
   },
   "scripts": {
     "clean": "lerna clean -y && rm -rf node_modules",
     "dev:docs": "vitedoc dev",
-    "build:docs": "vitedoc build --outDir dist"
+    "build:docs": "vitedoc build --outDir dist",
+    "bump": "HUSKY=0 lerna version",
+    "release": "lerna publish from-package --yes"
   }
 }

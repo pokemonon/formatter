@@ -1,0 +1,11 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@pokemonon/eslint-config-formatter": "0.0.1-beta.5",
+    "@pokemonon/stylelint-config-formatter": "0.0.1-beta.2"
+  },
+  "changesets": [
+    "moody-stingrays-search"
+  ]
+}
