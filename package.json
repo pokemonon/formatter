@@ -13,7 +13,7 @@
     "clean": "lerna clean -y && rm -rf node_modules",
     "dev:docs": "vitedoc dev",
     "build:docs": "vitedoc build --outDir dist",
-    "bump": "HUSKY=0 lerna version",
-    "release": "lerna publish from-package --yes"
+    "bump": "HUSKY=0 changeset && changeset version",
+    "release": "changeset publish"
   }
 }
