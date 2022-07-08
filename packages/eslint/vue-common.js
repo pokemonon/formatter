@@ -13,6 +13,15 @@ module.exports = {
             singleline: 'never',
             multiline: 'never',
         }],
+        'vue/html-self-closing': ['error', {
+            html: {
+                void: 'never',
+                normal: 'never',
+                component: 'never',
+            },
+            svg: 'always',
+            math: 'always',
+        }],
         // 缩进
         'vue/html-indent': ['error', 4],
         // 元素内的内容不强制换行

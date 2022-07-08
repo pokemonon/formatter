@@ -44,6 +44,7 @@ module.exports = {
         'global-require': 'off',
         'class-methods-use-this': 'off',
         'max-classes-per-file': 'off',
+        'no-new': 'off',
 
         /**
           * 格式规范
@@ -53,7 +54,7 @@ module.exports = {
             SwitchCase: 1,
         }],
         'max-len': ['warn', {
-            code: 150,
+            code: 250,
             ignoreComments: true,
         }],
         // import/export

@@ -18,13 +18,14 @@ module.exports = {
         'color-hex-length': 'short',
         'color-hex-case': 'lower',
 
+        'selector-type-no-unknown': null,
         'string-quotes': 'single', // 单引号
         'at-rule-empty-line-before': null,
         'at-rule-no-unknown': null,
         'at-rule-name-case': 'lower', // 指定@规则名的大小写
         'length-zero-no-unit': true, // 禁止零长度的单位（可自动修复）
         'number-leading-zero': 'never', // 小数不带0
-        'max-nesting-depth': 3,
+        'max-nesting-depth': 5,
         'order/properties-order': [ // 规则顺序
             'position',
             'top',
