@@ -6,6 +6,8 @@
     "@pokemonon/stylelint-config-formatter": "0.0.1-beta.2"
   },
   "changesets": [
+    "cuddly-kings-turn",
+    "kind-pears-divide",
     "moody-stingrays-search"
   ]
 }

@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
   extends: [
-    './packages/eslint/common.js',
+    '@pokemonon/formatter/vue2',
   ],
 }
