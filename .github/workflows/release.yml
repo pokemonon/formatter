@@ -27,13 +27,12 @@ jobs:
         run: npm i -g @antfu/ni pnpm
 
       - name: Install Dependencies
-        run: nci
-      
-      - name: Build
-        run: nr build
+        run: ni
 
       - name: Publish
-        run: nr release
+        run: nr release && git push --tags
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-
+      
+      - name: Tag
+        run: git push --tags
