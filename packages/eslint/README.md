@@ -8,17 +8,17 @@ code --install-extension dbaeumer.vscode-eslint
 
 ```json
 {
-    "editor.formatOnSave": false,
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact",
-    ],
+  "editor.formatOnSave": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
 
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true, // 保存时自动修复eslint
-    },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true // 保存时自动修复eslint
+  }
 }
 ```
 
@@ -44,19 +44,19 @@ javascript的基本规范
 
 ```js
 module.exports = {
-    root: true,
-    extends: [
-        '@pokemonon/formatter/common',
-    ],
-    settings: {
-        'import/resolver': {
-            // 如果需要配置别名
-            alias: [
-                ['@', `${__dirname}/src`],
-            ],
-        },
+  root: true,
+  extends: [
+    '@pokemonon/formatter/common',
+  ],
+  settings: {
+    'import/resolver': {
+      // 如果需要配置别名
+      alias: [
+        ['@', `${__dirname}/src`],
+      ],
     },
-};
+  },
+}
 
 ```
 
@@ -69,30 +69,30 @@ typescript的规范
 
 ```js
 module.exports = {
-    root: true,
-    extends: [
-        '@pokemonon/formatter/common',
-        '@pokemonon/formatter/typescript',
-    ],
-    parserOptions: {
-        // @typescript-eslint/parse解析需要
-        // 参考 https://www.npmjs.com/package/eslint-config-airbnb-typescript
-        project: `${__dirname}/tsconfig.eslint.json`,
+  root: true,
+  extends: [
+    '@pokemonon/formatter/common',
+    '@pokemonon/formatter/typescript',
+  ],
+  parserOptions: {
+    // @typescript-eslint/parse解析需要
+    // 参考 https://www.npmjs.com/package/eslint-config-airbnb-typescript
+    project: `${__dirname}/tsconfig.eslint.json`,
+  },
+  settings: {
+    'import/resolver': {
+      // https://www.npmjs.com/package/eslint-import-resolver-typescript
+      // eslint-import-resolver-typescript
+      // use paths defined in tsconfig.json
+      typescript: {
+        alwaysTryTypes: true,
+        project: [
+          `${__dirname}/tsconfig.json`,
+        ],
+      },
     },
-    settings: {
-        'import/resolver': {
-            // https://www.npmjs.com/package/eslint-import-resolver-typescript
-            // eslint-import-resolver-typescript
-            // use paths defined in tsconfig.json
-            typescript: {
-                alwaysTryTypes: true,
-                project: [
-                    `${__dirname}/tsconfig.json`,
-                ],
-            },
-        },
-    },
-};
+  },
+}
 ```
 
 ### vue配置
@@ -103,39 +103,39 @@ vue的配置
 Vue3&ts
 ```js
 module.exports = {
-    'root': true,
-    'extends': [
-        '@pokemonon/formatter/common',
-        '@pokemonon/formatter/typescript',
-        '@pokemonon/formatter/vue3',
-    ],
-    parserOptions: {
-        extraFileExtensions: ['.vue'],
-        project: `${__dirname}/tsconfig.eslint.json`,
+  root: true,
+  extends: [
+    '@pokemonon/formatter/common',
+    '@pokemonon/formatter/typescript',
+    '@pokemonon/formatter/vue3',
+  ],
+  parserOptions: {
+    extraFileExtensions: ['.vue'],
+    project: `${__dirname}/tsconfig.eslint.json`,
+  },
+  settings: {
+    'import/resolver': {
+      // https://www.npmjs.com/package/eslint-import-resolver-typescript
+      // eslint-import-resolver-typescript
+      // use paths defined in tsconfig.json....
+      typescript: {
+        alwaysTryTypes: true,
+        project: [
+          `${__dirname}/tsconfig.json`,
+        ],
+      },
     },
-    settings: {
-        'import/resolver': {
-            // https://www.npmjs.com/package/eslint-import-resolver-typescript
-            // eslint-import-resolver-typescript
-            // use paths defined in tsconfig.json....
-            typescript: {
-                alwaysTryTypes: true,
-                project: [
-                    `${__dirname}/tsconfig.json`,
-                ],
-            },
-        },
-    }
-};
+  },
+}
 ```
 
 Vue2
 ```js
 module.exports = {
-    'root': true,
-    'extends': [
-        '@pokemonon/formatter/common',
-        '@pokemonon/formatter/vue2', 
-    ],
-};
+  root: true,
+  extends: [
+    '@pokemonon/formatter/common',
+    '@pokemonon/formatter/vue2',
+  ],
+}
 ```
