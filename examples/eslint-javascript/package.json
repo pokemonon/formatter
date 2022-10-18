@@ -1,16 +1,17 @@
 {
   "name": "eslint-javascript",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "private": true,
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "license": "ISC",
-  "author": "",
   "devDependencies": {
-    "@pokemonon/eslint-config-formatter": "workspace:0.0.1-beta.6"
+    "@antfu/eslint-config-basic": "^0.27.0",
+    "@pokemonon/eslint-config-formatter": "workspace:0.0.1-beta.7"
   }
 }

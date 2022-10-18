@@ -6,6 +6,7 @@
     "@pokemonon/stylelint-config-formatter": "0.0.1-beta.2"
   },
   "changesets": [
+    "cuddly-kings-turn",
     "moody-stingrays-search"
   ]
 }
