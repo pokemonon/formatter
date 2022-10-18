@@ -1,5 +1,11 @@
 # @pokemonon/eslint-config-formatter
 
+## 0.1.0-beta.8
+
+### Minor Changes
+
+- 修改 eslint 配置的依赖
+
 ## 0.0.1-beta.7
 
 ### Patch Changes
