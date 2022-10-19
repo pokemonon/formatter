@@ -1,5 +1,11 @@
 # @pokemonon/stylelint-config-formatter
 
+## 0.1.0-beta.6
+
+### Patch Changes
+
+- upgrade with nothing
+
 ## 0.1.0-beta.5
 
 ### Patch Changes
