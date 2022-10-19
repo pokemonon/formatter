@@ -3,7 +3,8 @@
   "tag": "beta",
   "initialVersions": {
     "@pokemonon/eslint-config-formatter": "0.0.1-beta.5",
-    "@pokemonon/stylelint-config-formatter": "0.0.1-beta.2"
+    "@pokemonon/stylelint-config-formatter": "0.0.1-beta.2",
+    "eslint-javascript": "1.0.0"
   },
   "changesets": [
     "cuddly-kings-turn",
