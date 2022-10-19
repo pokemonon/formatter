@@ -1,5 +1,11 @@
 # @pokemonon/stylelint-config-formatter
 
+## 0.1.0-beta.5
+
+### Patch Changes
+
+- remove useless deps
+
 ## 0.1.0-beta.4
 
 ### Minor Changes
