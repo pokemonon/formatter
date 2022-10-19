@@ -2,18 +2,18 @@
   "name": "eslint-vue3",
   "version": "1.0.0",
   "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@pokemonon/eslint-config-formatter": "workspace:0.0.1-beta.6",
-    "@pokemonon/stylelint-config-formatter": "workspace:0.0.1-beta.2"
-  },
   "dependencies": {
     "vue": "3"
+  },
+  "devDependencies": {
+    "@pokemonon/eslint-config-formatter": "workspace:0.1.0-beta.8",
+    "@pokemonon/stylelint-config-formatter": "workspace:0.1.0-beta.4"
   }
 }

@@ -1,5 +1,11 @@
 # @pokemonon/eslint-config-formatter
 
+## 0.1.0-beta.9
+
+### Patch Changes
+
+- remove useless deps
+
 ## 0.1.0-beta.8
 
 ### Minor Changes
