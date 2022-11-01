@@ -2,10 +2,19 @@
 
 module.exports = {
   extends: [
-    './common.js',
     '@antfu/eslint-config-ts',
+    './common.js',
   ],
   rules: {
+    /**
+     * 语法
+     */
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'warn',
+
+    /**
+     * 格式
+     */
     'indent': 'off',
     '@typescript-eslint/indent': ['error', 2, {
       SwitchCase: 1,
@@ -38,10 +47,10 @@ module.exports = {
         // 'JSXText',
         // 'JSXEmptyExpression',
         // 'JSXSpreadChild',
-        // 'TSTypeParameterInstantiation',
-        // 'FunctionExpression > .params[decorators.length > 0]',
-        // 'FunctionExpression > .params > :matches(Decorator, :not(:first-child))',
-        // 'ClassBody.body > PropertyDefinition[decorators.length > 0] > .key',
+        'TSTypeParameterInstantiation',
+        'FunctionExpression > .params[decorators.length > 0]',
+        'FunctionExpression > .params > :matches(Decorator, :not(:first-child))',
+        'ClassBody.body > PropertyDefinition[decorators.length > 0] > .key',
       ],
       offsetTernaryExpressions: true,
     }],

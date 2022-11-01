@@ -1,5 +1,11 @@
 # @pokemonon/eslint-config-formatter
 
+## 0.1.0-beta.10
+
+### Patch Changes
+
+- upgrade with nothing
+
 ## 0.1.0-beta.9
 
 ### Patch Changes
