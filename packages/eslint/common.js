@@ -25,7 +25,9 @@ module.exports = {
     /**
      * 语法规范
      */
-    // 'no-unused-vars': ['warn'], // 变量没有使用
+    'no-unused-vars': 'warn', // 变量没有使用
+    'no-console': 'warn',
+    'n/no-path-concat': 'warn',
     // 'no-restricted-syntax': 'off',
     // 'no-param-reassign': 'off',
     // 'no-await-in-loop': 'off',
@@ -57,6 +59,7 @@ module.exports = {
     /**
      * 格式规范
      */
+
     // 空格
     // 'indent': ['error', 4, {
     //     SwitchCase: 1,
@@ -65,7 +68,6 @@ module.exports = {
     //     code: 250,
     //     ignoreComments: true,
     // }],
-    'n/no-path-concat': 'off',
     // // import/export
     // 'import/prefer-default-export': 'off',
     // 'import/no-unresolved': 'warn',

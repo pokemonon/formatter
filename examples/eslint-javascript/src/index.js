@@ -10,9 +10,12 @@ const obj = {
 
 const arr = [1, 2]
 
+require(number)
+
 switch (1) {
   case 1:
     break
   default:
     break
 }
+
