@@ -22,13 +22,13 @@ importers:
 
   examples/eslint-javascript:
     specifiers:
-      '@pokemonon/eslint-config-formatter': workspace:0.1.0-beta.11
+      '@pokemonon/eslint-config-formatter': workspace:*
     devDependencies:
       '@pokemonon/eslint-config-formatter': link:../../packages/eslint
 
   examples/eslint-typescript:
     specifiers:
-      '@pokemonon/eslint-config-formatter': workspace:0.1.0-beta.11
+      '@pokemonon/eslint-config-formatter': workspace:*
       '@types/node': ^18.11.8
     devDependencies:
       '@pokemonon/eslint-config-formatter': link:../../packages/eslint
@@ -36,7 +36,7 @@ importers:
 
   examples/eslint-vue2:
     specifiers:
-      '@pokemonon/eslint-config-formatter': workspace:0.1.0-beta.11
+      '@pokemonon/eslint-config-formatter': workspace:*
       vue: '2'
     dependencies:
       vue: 2.7.13
@@ -45,8 +45,8 @@ importers:
 
   examples/eslint-vue3:
     specifiers:
-      '@pokemonon/eslint-config-formatter': workspace:0.1.0-beta.11
-      '@pokemonon/stylelint-config-formatter': workspace:0.1.0-beta.6
+      '@pokemonon/eslint-config-formatter': workspace:*
+      '@pokemonon/stylelint-config-formatter': workspace:*
       vue: '3'
     dependencies:
       vue: 3.2.37
