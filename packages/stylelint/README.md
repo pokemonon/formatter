@@ -10,21 +10,21 @@ code --install-extension daosro.stylelint
 
 ```json
 {
-    "editor.formatOnSave": false,
-    // stylelint配置
-    "stylelint.enable": true,
-    "css.validate": false,
-    "less.validate": false,
-    "scss.validate": false,
-    "stylelint.validate": [
-        "css",
-        "less",
-        "scss",
-        "vue",
-    ],
-    "editor.codeActionsOnSave": {
-        "source.fixAll.stylelint": true
-    },
+  "editor.formatOnSave": false,
+  // stylelint配置
+  "stylelint.enable": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": [
+    "css",
+    "less",
+    "scss",
+    "vue"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  }
 }
 ```
 
@@ -36,6 +36,6 @@ yarn add -D @pokemonon/stylelint-config-formatter
 ## 配置
 ```js
 module.exports = {
-    "extends": "@pokemonon/stylelint-config-formatter",
+  extends: '@pokemonon/stylelint-config-formatter',
 }
 ```

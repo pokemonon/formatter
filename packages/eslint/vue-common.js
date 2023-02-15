@@ -23,7 +23,7 @@ module.exports = {
       math: 'always',
     }],
     // 缩进
-    'vue/html-indent': ['error', 4],
+    'vue/html-indent': ['error', 2],
     // 元素内的内容不强制换行
     'vue/singleline-html-element-content-newline': 'off',
 
