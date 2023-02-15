@@ -22,27 +22,27 @@ code --install-extension yoyo930021.vuter
 
 ```json
 {
-    "editor.formatOnSave": false,
+  "editor.formatOnSave": false,
 
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact",
-    ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
 
-    // stylelint配置
-    "stylelint.enable": true,
-    "css.validate": false,
-    "less.validate": false,
-    "scss.validate": false,
-    "stylelint.validate": [
+  // stylelint配置
+  "stylelint.enable": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": [
 
-    ],
+  ],
 
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true, // 保存时自动修复eslint
-        "source.fixAll.stylelint": true
-    },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true, // 保存时自动修复eslint
+    "source.fixAll.stylelint": true
+  }
 }
 ```

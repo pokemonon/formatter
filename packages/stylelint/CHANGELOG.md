@@ -1,5 +1,11 @@
 # @pokemonon/stylelint-config-formatter
 
+## 0.1.0-beta.7
+
+### Patch Changes
+
+- switch indent to 2 spaces
+
 ## 0.1.0-beta.6
 
 ### Patch Changes
